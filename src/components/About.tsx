@@ -25,8 +25,8 @@ const About = () => {
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
               A passionate and dedicated <span className="text-primary font-semibold">Full Stack Developer</span> with 
-              a strong focus on software development. Currently pursuing Bachelor of Technology in 
-              <span className="text-primary font-semibold"> Metallurgical Engineering</span> at IIT-BHU Varanasi.
+              a strong focus on software development. Currently studying at 
+              <span className="text-primary font-semibold">IIT-BHU Varanasi</span>.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">

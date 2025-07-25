@@ -61,7 +61,7 @@ const Hero = () => {
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="mailto:nazim.chouhan.cd.met21@itbhu.ac.in">
+                <a href="mailto:nazimchouhan45@gmail.com">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>

@@ -10,32 +10,28 @@ const Projects = () => {
       description: "Built AgentOS, an AI copilot for 9,000+ agents at GroMo, enabling real-time pitch coaching and trust-building. Led App building, UI development and backend connectivity. Integrated sub-second latency (850ms) AI stack using Whisper STT, GPT-4o WebSocket, and Android Neural APIs.",
       tech: ["AgentOS", "Android", "Whisper STT", "GPT-4o", "WebSocket", "Neural APIs"],
       status: "🏆 Winner",
-      link: "#",
-      github: "#"
+      github: "https://github.com/nazimchouhan/gromoApp"
     },
     {
       title: "Food Ordering Android App",
       description: "Developed a comprehensive food ordering application with backend using Java and responsive frontend with XML. Integrated Firebase for user authentication and SQLite for local data storage. Implemented secure payment processing using Razorpay for reliable transaction handling.",
       tech: ["Android", "Java", "XML", "Firebase", "SQLite", "Razorpay"],
       status: "Completed",
-      link: "#",
-      github: "#"
+      github: "https://github.com/nazimchouhan/FoodOrdering"
     },
     {
       title: "User Verification System - Kashiyatra",
       description: "Developed a real-time QR scanning app to verify 2,000+ user IDs in 90 minutes with minimal lag. Implemented JWT token decoding and MLKit Pikashow for high-speed scanning. Designed intuitive green/red UI for instant feedback with robust error handling.",
       tech: ["Android", "QR Scanner", "JWT", "MLKit", "SQLite"],
       status: "Live Event",
-      link: "#",
-      github: "#"
+      github: "https://github.com/nazimchouhan/KYScanner"
     },
     {
       title: "Agentic Ethereum Hackathon India 2025",
       description: "Achieved 4th place in the prestigious Agentic Ethereum Hackathon India 2025, building innovative blockchain solutions with focus on agent-based systems and smart contracts.",
       tech: ["Ethereum", "Smart Contracts", "Blockchain", "Web3"],
       status: "🥉 4th Place",
-      link: "#",
-      github: "#"
+      github: "https://github.com/nazimchouhan/EthereumApp"
     }
   ];
 
@@ -81,12 +77,6 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" asChild>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      View Project
-                    </a>
-                  </Button>
                   <Button variant="outline" size="sm" asChild>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-2" />
