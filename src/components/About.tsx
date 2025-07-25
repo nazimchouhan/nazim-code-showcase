@@ -15,7 +15,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="relative">
               <img
-                src={profileAvatar}
+                src="/lovable-uploads/142dc443-c12d-4a25-8396-72bab54c9965.png"
                 alt="Nazim Chouhan"
                 className="w-80 h-80 object-cover rounded-2xl mx-auto glow-primary"
               />
